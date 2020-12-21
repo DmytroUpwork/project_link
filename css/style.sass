@@ -1,6 +1,8 @@
 
 img 
   max-width: 100%
+a:hover 
+  text-decoration: none
 .wrapper-home 
   background: linear-gradient(90deg, rgba(16, 12, 101, 1) 0%, rgba(7, 7, 190, 1) 49%, rgba(28, 41, 135, 1) 100%)
   position: relative
@@ -33,6 +35,7 @@ img
     
 
 
+
 .card 
   border: 1px solid #ff9800
   background-color: #ff9800
@@ -44,9 +47,22 @@ img
         display: flex
         flex-direction: column
         img 
-          object-fit: cover
           width: 100% 
-      .col-sm-6 
+          border-radius: 50%
+      .copy-link 
+        justify-content: center
+        display: flex
+        flex-direction: column
+        a 
+          border-radius: 5px
+          background: #e27311
+          color: #fff
+          position: relative
+          padding: 12px
+          transition: .2s
+          &:hover 
+            background-image: linear-gradient(to top, #e27311, #de9224, #e27311)
+
 .btn-link
   color: #fff
   &:hover 

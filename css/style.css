@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .wrapper-home {
   background: -webkit-gradient(linear, left top, right top, from(#100c65), color-stop(49%, #0707be), to(#1c2987));
   background: linear-gradient(90deg, #100c65 0%, #0707be 49%, #1c2987 100%);
@@ -65,9 +69,36 @@ img {
 }
 
 .card .collapse .card-body .img-card img {
-  -o-object-fit: cover;
-     object-fit: cover;
   width: 100%;
+  border-radius: 50%;
+}
+
+.card .collapse .card-body .copy-link {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .collapse .card-body .copy-link a {
+  border-radius: 5px;
+  background: #e27311;
+  color: #fff;
+  position: relative;
+  padding: 12px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.card .collapse .card-body .copy-link a:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e27311), color-stop(#de9224), to(#e27311));
+  background-image: linear-gradient(to top, #e27311, #de9224, #e27311);
 }
 
 .btn-link {
