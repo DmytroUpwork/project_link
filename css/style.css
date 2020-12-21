@@ -33,12 +33,15 @@ a:hover {
 
 .panel-tabe .nav-tabs {
   padding-bottom: 20px;
+  border-bottom: none;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
   border-radius: 5px;
   border: none;
   color: #000;
+  background: #fd8101;
+  margin: 20px;
 }
 
 .nav-tabs .nav-item.show .nav-link.active, .nav-tabs .nav-link.active {
@@ -113,6 +116,8 @@ a:hover {
 .accordion > .card > .card-header {
   background: -webkit-gradient(linear, left top, right top, from(#100c65), color-stop(49%, #0707be), to(#1c2987));
   background: linear-gradient(90deg, #100c65 0%, #0707be 49%, #1c2987 100%);
+  margin-bottom: 4px;
+  border-radius: 5px;
 }
 
 .footer {
