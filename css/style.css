@@ -51,11 +51,11 @@ a:hover {
   background-color: #ff9800;
 }
 
-.card .collapse .card-body {
+.card .card-body {
   background: #ff9800;
 }
 
-.card .collapse .card-body .img-card {
+.card .card-body .img-card {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -68,12 +68,12 @@ a:hover {
           flex-direction: column;
 }
 
-.card .collapse .card-body .img-card img {
+.card .card-body .img-card img {
   width: 100%;
   border-radius: 50%;
 }
 
-.card .collapse .card-body .copy-link {
+.card .card-body .copy-link {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -86,7 +86,7 @@ a:hover {
           flex-direction: column;
 }
 
-.card .collapse .card-body .copy-link a {
+.card .card-body .copy-link a {
   border-radius: 5px;
   background: #e27311;
   color: #fff;
@@ -96,7 +96,7 @@ a:hover {
   transition: .2s;
 }
 
-.card .collapse .card-body .copy-link a:hover {
+.card .card-body .copy-link a:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e27311), color-stop(#de9224), to(#e27311));
   background-image: linear-gradient(to top, #e27311, #de9224, #e27311);
 }
