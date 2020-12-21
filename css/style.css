@@ -1,0 +1,49 @@
+img {
+  max-width: 100%;
+}
+
+.wrapper-home {
+  background: -webkit-gradient(linear, left top, right top, from(#100c65), color-stop(49%, #0707be), to(#1c2987));
+  background: linear-gradient(90deg, #100c65 0%, #0707be 49%, #1c2987 100%);
+  position: relative;
+  padding: 180px 0 224px;
+}
+
+.wrapper-home h1 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper-home div {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card .collapse .card-body .img-card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .collapse .card-body .img-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, right top, from(#100c65), color-stop(49%, #0707be), to(#1c2987));
+  background: linear-gradient(90deg, #100c65 0%, #0707be 49%, #1c2987 100%);
+  padding: 70px 15px;
+}
+/*# sourceMappingURL=style.css.map */
